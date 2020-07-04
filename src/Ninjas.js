@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Ninjas() {
+function Ninjas({name, age, belt}) {
   return (
     <div className="ninja">
-      <div>Name : Ryu</div>
-      <div>Age : 30</div>
-      <div>Belt : Black</div>
+      <div>Name : {name}</div>
+      <div>Age : {age}</div>
+      <div>Belt : {belt}</div>
     </div>
   )
 }
