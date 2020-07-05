@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>My First React App</h1>
-        <p>Welcome To my Web😉</p>
+        <p>Welcome To my Web</p>
         <Ninjas deleteNinja={this.deleteNinja} ninjas={this.state.ninjas}/>
         <AddNinja addNinja={this.addNinja}/>
       </div>
